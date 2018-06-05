@@ -1,0 +1,10 @@
+name: TotemControl
+version: 1.0
+description: Fixes stacked totems.
+author: x1D
+main: TotemControl.TotemControl
+
+commands:
+  totemcontrol:
+    description: Set the interval for how often it will do a TotemCheck.
+    aliases: [tc, totem]
