@@ -27,7 +27,6 @@ public class TotemControl extends JavaPlugin {
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
 			@Override
 			public void run() {
-				Bukkit.getServer().broadcastMessage("tick");
 				for (Player p : Bukkit.getOnlinePlayers()) {
 					ItemStack[] content = p.getInventory().getContents();
 					for (ItemStack item : content) {
